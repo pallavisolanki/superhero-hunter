@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.navbar{
+    
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.315)
+}
+.nav-logo{
+    margin-left: 1rem;
+    height: 50%;
+    border-radius: 25%;
+    
+}
+.nav-a{
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: rgba(0, 140, 255, 0.743);
+    
+}
+.nav-btn {
+    margin-right: 2.5rem;
+    height:2rem ;
+    width: 2rem;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer; 
+}
+.nav-btn img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 15%;
+    background-size: contain;  
+}
+.nav-btn:hover{
+    transform: scale(1.1);
+}
+.nav-a:hover{
+    transform: scale(1.1);
+}
+.nav-logo:hover{
+    transform: scale(1.1);
+}
+.main{
+    background: rgb(183, 183, 183);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h2{
+    padding: 10px;
+    text-align: center;
+   
+    margin: 10px;
+}
+.main input{
+    border-radius: 5rem;
+    width: 60%;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px lightblue;
+    padding: 10px;
+}
+.result-container{
+    margin-top:2rem;
+    min-height: 50rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    
+}
+.box{ height: 30rem;
+    margin: 1rem;
+    
+    border-radius: 10%;
+    background: white;
+    border: none;
+    box-shadow: 20px 20px 20px gray;
+    
+  
+}
+.box img{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 50%;
+}
+.box p{
+    color: rgb(223, 31, 169);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons button{
+    color: white;
+    font-size: 1rem;
+    background: rgba(0, 166, 255, 0.512);
+    padding: 1.2rem;
+    border: none;
+    border-radius: 8%;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px gray;
+}
+.buttons button:hover{
+    transform: scale(1.2);
+}
+.nav-a{
+    border: none;
+    background: none;
+}
+.main2 h2{
+ color: blueviolet;
+ text-align: center;
+ margin-top: 1rem;
+}
+.fav-search{
+    display: none;
+}
